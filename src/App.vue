@@ -6,8 +6,14 @@
 </template>
 
 <script lang="ts">
+import maintenanceService, { MaintenanceResponse } from './services/maintenance-service';
 export default {
-  name: 'app'
+  name: 'app',
+  created() {
+    maintenanceService.maintenanceList().then((data: MaintenanceResponse) => {
+
+    });
+  }
 }
 </script>
 

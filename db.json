@@ -1,0 +1,12 @@
+{
+  "maintenances": [
+    {
+      "id": 1,
+      "name": "futoase"
+    },
+    {
+      "id": 2,
+      "name": "hogehoge"
+    }
+  ]
+}
